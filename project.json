@@ -1,0 +1,82 @@
+{
+	"objName": "Stage",
+	"sounds": [{
+			"soundName": "pop",
+			"soundID": 1,
+			"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+			"sampleCount": 258,
+			"rate": 11025,
+			"format": ""
+		}],
+	"costumes": [{
+			"costumeName": "backdrop1",
+			"baseLayerID": 4,
+			"baseLayerMD5": "739b5e2a2435f6e1ec2993791b423146.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 240,
+			"rotationCenterY": 180
+		}],
+	"currentCostumeIndex": 0,
+	"penLayerMD5": "5c81a336fab8be57adc039a8a2b33ca9.png",
+	"penLayerID": 0,
+	"tempoBPM": 60,
+	"videoAlpha": 0.5,
+	"children": [{
+			"objName": "Sprite1",
+			"scriptComments": [[5, 5, 360, 787, true, -1, "FEDD - Lewis Structures Educational Game Prototype 1\r\rI. Goal\r    To gain familiarity with and lay the groundwork for\r    the FEDD Lewis educational game.\r\rII. Project Scope\r    This prototype should implement the core\r    functionality of the Lewis Structures educational\r    game, especially the mechanics of dragging electron\r    dots, snapping atoms together, and measuring bond\r    angles and lengths, It should not be a complete\r    version of the game: title screens, instructions,\r    polished graphics, music, etc. need not be included.\r\rIII. Authors\r    This prototype should have two authors, who\r    can each pick which features they want to\r    add. The other two members of the team will\r    work on reasearch.\r\rFeatures:\r    - Overarching design\r         This project needs an overarching design.\r         For instance, What should the coding style\r         be? How many sprites to use? Should the dots\r         be pen or sprites?\r    - Dragging electron dots\r         Before anything else, electron dots should be\r         draggable. Since the default behavior should\r         be that on release of the mouse, the electron\r         dots go back to the original location, that behavior\r         and a convinient way to disable it should also be\r         implemented.\r    - Data representation of the correct Lewis Structures\r         Somehow store the correct lewis structure in a\r         list.\r    - Allow correct electrons to snap together in a pair\r         For instance, if a C-C bond is possible, stacking\r         the electrons like this: :\r         should snap into a pair. If a C=C bond is\r         possible, moving another electron to the stack\r         should make a triple bond\r    - Bond lengths\r         A table of bond lengths can be constructed\r         into a list, and the bond lengths can\r         be used to determine the scale of the bonds\r     - Shape and Geometry\r         Shape and geometry can be represented by\r         the dashed line and triangle notation"],
+				[5, 797, 358, 207, true, -1, "Ideas and Observations\r\rObservations:\r\rIdeas:\r"]],
+			"sounds": [{
+					"soundName": "meow",
+					"soundID": 0,
+					"md5": "83c36d806dc92327b9e7049a565c6bff.wav",
+					"sampleCount": 18688,
+					"rate": 22050,
+					"format": ""
+				}],
+			"costumes": [{
+					"costumeName": "costume1",
+					"baseLayerID": 1,
+					"baseLayerMD5": "f9a1c175dbe2e5dee472858dd30d16bb.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 47,
+					"rotationCenterY": 55
+				},
+				{
+					"costumeName": "costume2",
+					"baseLayerID": 2,
+					"baseLayerMD5": "6e8bd9ae68fdb02b7e1e3df656a75635.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 47,
+					"rotationCenterY": 55
+				},
+				{
+					"costumeName": "costume3",
+					"baseLayerID": 3,
+					"baseLayerMD5": "73c00021ae31621086188f41f92519bb.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": 2,
+					"rotationCenterY": 2
+				}],
+			"currentCostumeIndex": 2,
+			"scratchX": 0,
+			"scratchY": 90,
+			"scale": 1,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 1,
+			"visible": true,
+			"spriteInfo": {
+			}
+		}],
+	"info": {
+		"hasCloudData": false,
+		"projectID": "177193811",
+		"userAgent": "Mozilla\/5.0 (X11; Linux x86_64; rv:55.0) Gecko\/20100101 Firefox\/55.0",
+		"scriptCount": 0,
+		"flashVersion": "LNX 27,0,0,130",
+		"swfVersion": "v457",
+		"spriteCount": 1,
+		"videoOn": false
+	}
+}
